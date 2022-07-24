@@ -7,11 +7,11 @@ import {FlexWrapper} from "../Configs/FlexTheme.styled";
 import {Grid} from "@mui/material";
 import Search from "../img/search.svg"
 
-let N = 12;
+let N = 18;
 
 const MainPage = () => {
     return (
-        <div className="Content">
+        <FlexWrapper grow = '1'>
             <MarginWrapper>
                 <h1>Все товары</h1>
                 <PaddingWrapper>
@@ -35,7 +35,7 @@ const MainPage = () => {
                     ))}
                 </Grid>
             </MarginWrapper>
-        </div>
+        </FlexWrapper>
     );
 };
 

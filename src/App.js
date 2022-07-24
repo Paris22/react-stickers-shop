@@ -4,6 +4,7 @@ import MainPage from "./MainPage/MainPage";
 import Cart from "./Cart/Cart";
 import Logs from "./Logs/Logs";
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 import React from "react";
 import {MAIN, CART, LOGS} from "./Configs/constant";
 
@@ -16,6 +17,7 @@ function App() {
         <Route exact path={CART} element={<Cart/>}/>
         <Route exact path={LOGS} element={<Logs/>}/>
       </Routes>
+        <Footer/>
     </div>
   );
 }
